@@ -135,6 +135,7 @@ const Quiz = () => {
 
   const resetQuizHandler = () => {
     setShowScore(false);
+    setCurrentQuestion(0);
   };
 
   return (
